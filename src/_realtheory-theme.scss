@@ -1,0 +1,75 @@
+$rt-brand-blue: (
+  50: #e0f3fa,
+  100: #b0e0f2,
+  200: #7dcbe9,
+  300: #4cb7e0,
+  400: #28a8db,
+  500: #009ad6,
+  600: #009ad6,
+  700: #008dc8,
+  800: #008dc8,
+  900: #006aa1,
+  A100: #7dcbe9,
+  A200: #28a8db,
+  A400: #008dc8,
+  A700: #005681,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text
+  )
+);
+
+$rt-brand-pink: (
+  50: #efe6f1,
+  100: #d7c0df,
+  200: #bd97ca,
+  300: #a371b4,
+  400: #9156a4,
+  500: #7f4094,
+  600: #733b8d,
+  700: #633584,
+  800: #552f79,
+  900: #3c2469,
+  A100: #d7c0df,
+  A200: #bd97ca,
+  A400: #9156a4,
+  A700: #633584,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text
+  )
+);
+
+$realtheory-primary: mat-palette($rt-brand-blue, 400, 200, 900);
+$realtheory-accent: mat-palette($rt-brand-pink, 400, 200, 900);
+$realtheory-warn: mat-palette($mat-red);
+
+$realtheory-theme: mat-dark-theme(
+  $realtheory-primary,
+  $realtheory-accent,
+  $realtheory-warn
+);

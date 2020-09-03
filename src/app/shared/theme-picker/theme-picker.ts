@@ -32,33 +32,40 @@ export class ThemePicker implements OnInit, OnDestroy {
 
   // The below colors need to align with the themes defined in theme-picker.scss
   themes: DocsSiteTheme[] = [
+    // {
+    //   primary: '#673AB7',
+    //   accent: '#FFC107',
+    //   displayName: 'Deep Purple & Amber',
+    //   name: 'deeppurple-amber',
+    //   isDark: false,
+    // },
+    // {
+    //   primary: '#3F51B5',
+    //   accent: '#E91E63',
+    //   displayName: 'Indigo & Pink',
+    //   name: 'indigo-pink',
+    //   isDark: false,
+    //   isDefault: true,
+    // },
+    // {
+    //   primary: '#E91E63',
+    //   accent: '#607D8B',
+    //   displayName: 'Pink & Blue-grey',
+    //   name: 'pink-bluegrey',
+    //   isDark: true,
+    // },
+    // {
+    //   primary: '#9C27B0',
+    //   accent: '#4CAF50',
+    //   displayName: 'Purple & Green',
+    //   name: 'purple-green',
+    //   isDark: true,
+    // },
     {
-      primary: '#673AB7',
-      accent: '#FFC107',
-      displayName: 'Deep Purple & Amber',
-      name: 'deeppurple-amber',
-      isDark: false,
-    },
-    {
-      primary: '#3F51B5',
-      accent: '#E91E63',
-      displayName: 'Indigo & Pink',
-      name: 'indigo-pink',
-      isDark: false,
-      isDefault: true,
-    },
-    {
-      primary: '#E91E63',
-      accent: '#607D8B',
-      displayName: 'Pink & Blue-grey',
-      name: 'pink-bluegrey',
-      isDark: true,
-    },
-    {
-      primary: '#9C27B0',
-      accent: '#4CAF50',
-      displayName: 'Purple & Green',
-      name: 'purple-green',
+      primary: '#28A8DB',
+      accent: '#9156A4',
+      displayName: 'RealTheory',
+      name: 'realtheory',
       isDark: true,
     },
   ];

@@ -10,7 +10,7 @@
       }
 
       // The below colors need to align with the themes defined in ThemePicker
-      &.deeppurple-amber svg {
+      &.realtheory svg {
         .docs-theme-icon-background {
           fill: #fafafa;
         }
@@ -19,42 +19,6 @@
         }
         .docs-theme-icon-toolbar {
           fill: #673AB7;
-        }
-      }
-
-      &.indigo-pink svg {
-        .docs-theme-icon-background {
-          fill: #fafafa;
-        }
-        .docs-theme-icon-button {
-          fill: #E91E63;
-        }
-        .docs-theme-icon-toolbar {
-          fill: #3F51B5;
-        }
-      }
-
-      &.pink-bluegrey svg {
-        .docs-theme-icon-background {
-          fill: #303030;
-        }
-        .docs-theme-icon-button {
-          fill: #607D8B;
-        }
-        .docs-theme-icon-toolbar {
-          fill: #E91E63;
-        }
-      }
-
-      &.purple-green svg {
-        .docs-theme-icon-background {
-          fill: #303030;
-        }
-        .docs-theme-icon-button {
-          fill: #4CAF50;
-        }
-        .docs-theme-icon-toolbar {
-          fill: #9C27B0;
         }
       }
     }

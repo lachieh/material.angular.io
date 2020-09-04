@@ -65,7 +65,7 @@ $rt-brand-pink: (
 );
 
 $realtheory-primary: mat-palette($rt-brand-blue, 400, 200, 900);
-$realtheory-accent: mat-palette($rt-brand-pink, 400, 200, 900);
+$realtheory-accent: mat-palette($rt-brand-blue, 400, 200, 900);
 $realtheory-warn: mat-palette($mat-red);
 
 $realtheory-theme: mat-dark-theme(
